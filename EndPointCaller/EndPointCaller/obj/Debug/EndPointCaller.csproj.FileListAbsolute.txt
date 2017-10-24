@@ -81,3 +81,6 @@ D:\API Console Endpoint Testing App\EndPointCaller\EndPointCaller\bin\Debug\Syst
 D:\API Console Endpoint Testing App\EndPointCaller\EndPointCaller\obj\Debug\EndPointCaller.csprojResolveAssemblyReference.cache
 D:\API Console Endpoint Testing App\EndPointCaller\EndPointCaller\obj\Debug\EndPointCaller.exe.manifest
 D:\API Console Endpoint Testing App\EndPointCaller\EndPointCaller\obj\Debug\EndPointCaller.application
+D:\projects\APICaller\EndPointCaller\EndPointCaller\bin\Debug\EndPointCaller.exe.config
+D:\projects\APICaller\EndPointCaller\EndPointCaller\obj\Debug\EndPointCaller.exe
+D:\projects\APICaller\EndPointCaller\EndPointCaller\obj\Debug\EndPointCaller.pdb
