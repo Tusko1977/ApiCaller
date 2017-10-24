@@ -1,0 +1,127 @@
+2017-06-05 12:02:32,088 INFO [7] Program - Request start --
+2017-06-05 12:02:32,104 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:02:33,104 INFO [14] Program - Sucess Response
+2017-06-05 12:02:33,169 INFO [14] Program - {"Data":{"CashDocRef":"CI1600947"},"Response":{"Value":"Created"}}
+2017-06-05 12:02:33,174 INFO [7] Program - Request End --
+2017-06-05 12:02:33,177 INFO [7] Program - Request start --
+2017-06-05 12:02:33,183 INFO [7] Program - http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/
+2017-06-05 12:02:33,222 ERROR [13] Program - Error Response
+2017-06-05 12:02:33,230 ERROR [13] Program - Not Found
+2017-06-05 12:02:33,236 ERROR [13] Program - 404
+2017-06-05 12:02:33,272 ERROR [13] Program - {"headerReasonPhrase":null,"Response":{"Value":"404 Not Found"},"Messages":[{"Severity":"Error","Message":"No HTTP resource was found that matches the request URI 'http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/'."}]}
+2017-06-05 12:02:33,277 INFO [7] Program - Request End --
+2017-06-05 12:04:12,823 INFO [7] Program - Request start --
+2017-06-05 12:04:12,835 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:04:13,455 INFO [13] Program - Sucess Response
+2017-06-05 12:04:13,486 INFO [13] Program - {"Data":{"CashDocRef":"CI1600948"},"Response":{"Value":"Created"}}
+2017-06-05 12:04:13,486 INFO [7] Program - Request End --
+2017-06-05 12:04:13,486 INFO [7] Program - Request start --
+2017-06-05 12:04:13,486 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:04:15,408 INFO [14] Program - Sucess Response
+2017-06-05 12:04:15,423 INFO [14] Program - {"Data":{"UniqueId":"1044","SerialNo":"529"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:04:15,423 INFO [7] Program - Request End --
+2017-06-05 12:05:02,473 INFO [7] Program - Request start --
+2017-06-05 12:05:02,543 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:05:03,910 INFO [14] Program - Sucess Response
+2017-06-05 12:05:03,942 INFO [14] Program - {"Data":{"CashDocRef":"CI1600949"},"Response":{"Value":"Created"}}
+2017-06-05 12:05:03,943 INFO [7] Program - Request End --
+2017-06-05 12:05:03,944 INFO [7] Program - Request start --
+2017-06-05 12:05:03,944 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:05:05,735 INFO [14] Program - Sucess Response
+2017-06-05 12:05:05,738 INFO [14] Program - {"Data":{"UniqueId":"1046","SerialNo":"530"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:05:05,739 INFO [7] Program - Request End --
+2017-06-05 12:05:05,742 INFO [7] Program - Request start --
+2017-06-05 12:05:05,743 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:05:06,182 INFO [14] Program - Sucess Response
+2017-06-05 12:05:06,183 INFO [14] Program - {"Data":{"CashDocRef":"CI1600950"},"Response":{"Value":"Created"}}
+2017-06-05 12:05:06,184 INFO [7] Program - Request End --
+2017-06-05 12:05:06,186 INFO [7] Program - Request start --
+2017-06-05 12:05:06,187 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:05:10,521 INFO [14] Program - Sucess Response
+2017-06-05 12:05:10,522 INFO [14] Program - {"Data":{"UniqueId":"1048","SerialNo":"531"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:05:10,524 INFO [7] Program - Request End --
+2017-06-05 12:05:10,527 INFO [7] Program - Request start --
+2017-06-05 12:05:10,528 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:05:11,068 INFO [14] Program - Sucess Response
+2017-06-05 12:05:11,069 INFO [14] Program - {"Data":{"CashDocRef":"CI1600951"},"Response":{"Value":"Created"}}
+2017-06-05 12:05:11,070 INFO [7] Program - Request End --
+2017-06-05 12:05:11,073 INFO [7] Program - Request start --
+2017-06-05 12:05:11,074 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:05:19,683 INFO [14] Program - Sucess Response
+2017-06-05 12:05:19,685 INFO [14] Program - {"Data":{"UniqueId":"1050","SerialNo":"532"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:05:19,688 INFO [7] Program - Request End --
+2017-06-05 12:05:19,691 INFO [7] Program - Request start --
+2017-06-05 12:05:19,691 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:05:20,388 INFO [8] Program - Sucess Response
+2017-06-05 12:05:20,389 INFO [8] Program - {"Data":{"CashDocRef":"CI1600952"},"Response":{"Value":"Created"}}
+2017-06-05 12:05:20,391 INFO [7] Program - Request End --
+2017-06-05 12:05:20,393 INFO [7] Program - Request start --
+2017-06-05 12:05:20,394 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:11:50,868 INFO [7] Program - Request start --
+2017-06-05 12:11:50,880 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:11:51,411 INFO [13] Program - Sucess Response
+2017-06-05 12:11:51,458 INFO [13] Program - {"Data":{"CashDocRef":"CI1600953"},"Response":{"Value":"Created"}}
+2017-06-05 12:11:51,458 INFO [7] Program - Request End --
+2017-06-05 12:11:51,458 INFO [7] Program - Request start --
+2017-06-05 12:11:51,473 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:11:53,239 INFO [14] Program - Sucess Response
+2017-06-05 12:11:53,239 INFO [14] Program - {"Data":{"UniqueId":"1054","SerialNo":"534"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:11:53,239 INFO [7] Program - Request End --
+2017-06-05 12:11:53,254 INFO [7] Program - Request start --
+2017-06-05 12:11:53,254 INFO [7] Program - http://hivedome-fs01:4720/ReferenceData/Global/Currency/CurrencyId/USD
+2017-06-05 12:11:53,348 ERROR [14] Program - Error Response
+2017-06-05 12:11:53,348 ERROR [14] Program - Method Not Allowed
+2017-06-05 12:11:53,364 ERROR [14] Program - 405
+2017-06-05 12:11:53,395 ERROR [14] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-06-05 12:11:53,395 INFO [7] Program - Request End --
+2017-06-05 12:48:42,205 INFO [7] Program - Request start --
+2017-06-05 12:48:42,234 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:48:42,997 INFO [14] Program - Sucess Response
+2017-06-05 12:48:43,044 INFO [14] Program - {"Data":{"CashDocRef":"CI1600954"},"Response":{"Value":"Created"}}
+2017-06-05 12:48:43,053 INFO [7] Program - Request End --
+2017-06-05 12:48:43,058 INFO [7] Program - Request start --
+2017-06-05 12:48:43,063 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:48:44,792 INFO [14] Program - Sucess Response
+2017-06-05 12:48:44,798 INFO [14] Program - {"Data":{"UniqueId":"1056","SerialNo":"535"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:48:44,803 INFO [7] Program - Request End --
+2017-06-05 12:48:44,809 INFO [7] Program - Request start --
+2017-06-05 12:48:44,815 INFO [7] Program - http://hivedome-fs01:4720/ReferenceData/Global/Currency/CurrencyId/USD
+2017-06-05 12:48:44,815 ERROR [14] Program - Error Response
+2017-06-05 12:48:44,830 ERROR [14] Program - Method Not Allowed
+2017-06-05 12:48:44,830 ERROR [14] Program - 405
+2017-06-05 12:48:44,861 ERROR [14] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-06-05 12:48:44,861 INFO [7] Program - Request End --
+2017-06-05 12:53:18,679 INFO [7] Program - Request start --
+2017-06-05 12:53:18,698 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:53:19,359 INFO [14] Program - Sucess Response
+2017-06-05 12:53:19,396 INFO [14] Program - {"Data":{"CashDocRef":"CI1600955"},"Response":{"Value":"Created"}}
+2017-06-05 12:53:19,398 INFO [7] Program - Request End --
+2017-06-05 12:53:19,398 INFO [7] Program - Request start --
+2017-06-05 12:53:19,398 INFO [7] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:53:21,195 INFO [14] Program - Sucess Response
+2017-06-05 12:53:21,195 INFO [14] Program - {"Data":{"UniqueId":"1058","SerialNo":"536"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:53:21,195 INFO [7] Program - Request End --
+2017-06-05 12:53:21,210 INFO [7] Program - Request start --
+2017-06-05 12:53:21,210 INFO [7] Program - http://hivedome-fs01:4720/ReferenceData/qa/ClientLedger/ClientAccount/DAVIDA.P
+2017-06-05 12:53:21,359 ERROR [14] Program - Error Response
+2017-06-05 12:53:21,359 ERROR [14] Program - Method Not Allowed
+2017-06-05 12:53:21,376 ERROR [14] Program - 405
+2017-06-05 12:53:21,398 ERROR [14] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-06-05 12:53:21,414 INFO [7] Program - Request End --
+2017-06-05 12:54:56,995 INFO [8] Program - Request start --
+2017-06-05 12:54:57,014 INFO [8] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-06-05 12:54:57,632 INFO [15] Program - Sucess Response
+2017-06-05 12:54:57,664 INFO [15] Program - {"Data":{"CashDocRef":"CI1600956"},"Response":{"Value":"Created"}}
+2017-06-05 12:54:57,664 INFO [8] Program - Request End --
+2017-06-05 12:54:57,679 INFO [8] Program - Request start --
+2017-06-05 12:54:57,679 INFO [8] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-06-05 12:54:59,444 INFO [15] Program - Sucess Response
+2017-06-05 12:54:59,460 INFO [15] Program - {"Data":{"UniqueId":"1060","SerialNo":"537"},"Response":{"Value":"Created"},"Messages":[{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(166.25)"},{"Severity":"Warning","Message":"API5084 - LEG: Department : 009900.T has a department of 9900"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(166.25)"}]}
+2017-06-05 12:54:59,460 INFO [8] Program - Request End --
+2017-06-05 12:54:59,475 INFO [8] Program - Request start --
+2017-06-05 12:54:59,475 INFO [8] Program - http://hivedome-fs01:4720/ReferenceData/qa/ClientLedger/ClientAccount/DAVIDA.P
+2017-06-05 12:54:59,616 ERROR [15] Program - Error Response
+2017-06-05 12:54:59,632 ERROR [15] Program - Method Not Allowed
+2017-06-05 12:54:59,632 ERROR [15] Program - 405
+2017-06-05 12:54:59,663 ERROR [15] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-06-05 12:54:59,663 INFO [8] Program - Request End --

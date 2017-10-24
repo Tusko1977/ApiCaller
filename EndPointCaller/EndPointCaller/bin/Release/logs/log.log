@@ -1,0 +1,42 @@
+2017-10-23 17:19:21,873 INFO [7] Program - Request start --
+2017-10-23 17:19:21,970 INFO [7] Program - http://hivedome-fs01:5715/kvpstore/TestAPI
+2017-10-23 17:19:22,425 ERROR [14] Program - Error Response
+2017-10-23 17:19:22,430 ERROR [14] Program - Not Found
+2017-10-23 17:19:22,435 ERROR [14] Program - 404
+2017-10-23 17:19:22,532 INFO [7] Program - Request End --
+2017-10-23 17:53:28,920 INFO [7] Program - Request start --
+2017-10-23 17:53:28,961 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-10-23 17:53:29,410 ERROR [14] Program - Error Response
+2017-10-23 17:53:29,411 ERROR [14] Program - Method Not Allowed
+2017-10-23 17:53:29,412 ERROR [14] Program - 405
+2017-10-23 17:53:29,509 ERROR [14] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-10-23 17:53:29,511 INFO [7] Program - Request End --
+2017-10-23 17:53:29,512 INFO [7] Program - Request start --
+2017-10-23 17:53:29,513 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-10-23 17:53:29,522 ERROR [13] Program - Error Response
+2017-10-23 17:53:29,522 ERROR [13] Program - Method Not Allowed
+2017-10-23 17:53:29,523 ERROR [13] Program - 405
+2017-10-23 17:53:29,524 ERROR [13] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-10-23 17:53:29,525 INFO [7] Program - Request End --
+2017-10-23 17:53:29,527 INFO [7] Program - Request start --
+2017-10-23 17:53:29,527 INFO [7] Program - http//hivedome-fs01:4720/ReferenceData/qa/ClientLedger/ClientAccount/DAVIDA.P
+2017-10-23 17:53:29,531 INFO [7] Program - Request End --
+2017-10-23 17:55:48,820 INFO [7] Program - Request start --
+2017-10-23 17:55:48,866 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-10-23 17:55:49,322 ERROR [14] Program - Error Response
+2017-10-23 17:55:49,328 ERROR [14] Program - Method Not Allowed
+2017-10-23 17:55:49,334 ERROR [14] Program - 405
+2017-10-23 17:55:49,432 ERROR [14] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-10-23 17:55:49,439 INFO [7] Program - Request End --
+2017-10-23 17:55:49,444 INFO [7] Program - Request start --
+2017-10-23 17:55:49,449 INFO [7] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-10-23 17:55:49,461 ERROR [13] Program - Error Response
+2017-10-23 17:55:49,468 ERROR [13] Program - Method Not Allowed
+2017-10-23 17:55:49,474 ERROR [13] Program - 405
+2017-10-23 17:55:49,479 ERROR [13] Program - {"headerReasonPhrase":null,"Response":{"Value":"405 Method Not Allowed"},"Messages":[{"Severity":"Error","Message":"API5077 - API : That method is not supported, please check the ITAS API documentation."}]}
+2017-10-23 17:55:49,484 INFO [7] Program - Request End --
+2017-10-23 17:55:49,490 INFO [7] Program - Request start --
+2017-10-23 17:55:49,495 INFO [7] Program - http://hivedome-fs01:4720/ReferenceData/qa/ClientLedger/ClientAccount/DAVIDA.P
+2017-10-23 17:55:49,523 INFO [13] Program - Sucess Response
+2017-10-23 17:55:49,532 INFO [13] Program - {"Data":{"ClientAccountId":"DAVIDA.P","Title":"ACME Trading Company","ClientType":{"ClientTypeId":"H","ClientTypeDescription":"House Account"},"Status":"O","PrivilegeLevel":9,"CanBeBuyer":true,"CanBeSeller":true,"CanBeAgent":true,"CanBeShipper":true,"CanBeDerivativeClient":false,"CanBeDerivativeBroker":false,"GlobalTraderProgramMember":false,"GroupAccountMember":true,"HeadOfFamilyAccountCode":"AFRICA.P","EDICode":"123456789112345","AcceptsNettingInstruction":false,"ContactDetails":{"AddressLine1":"Address Line #99","AddressLine2":"Address Line #99","AddressLine3":"Address Line #99","AddressLine4":"Address Line #99","ZipCode":"01234567","CountryCode":{"CountryId":"GB","CountryDescription":"United Kingdom"},"EmailAddress":"info@abcdef.com","PhoneNumber":"01234 99999","FaxNumber":"01234 99999"},"ClientLimits":{"ClientDateLimitsApproved":"2015-12-01T00:00:00Z","ClientLimitsCurrency":{"CurrencyId":"GBP","CurrencyDescription":"U.K. Sterling"},"ClientPaymentLimit":0.0,"ClientMarketDefaultRiskLimit":99999.0,"ClientCommitmentLimit":99999.0},"FamilyLimits":null},"Response":{"Value":"Success"}}
+2017-10-23 17:55:49,540 INFO [7] Program - Request End --

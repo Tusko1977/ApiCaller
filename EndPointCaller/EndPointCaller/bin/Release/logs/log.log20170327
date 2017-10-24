@@ -1,0 +1,299 @@
+2017-03-27 14:00:27,236 INFO [10] Program - Request start --
+2017-03-27 14:00:28,035 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:03,308 INFO [15] Program - Sucess Response
+2017-03-27 14:01:03,554 INFO [15] Program - {"Data":{"UniqueId":"1799","SerialNo":"1093"},"Response":{"Value":"Created"}}
+2017-03-27 14:01:19,374 INFO [10] Program - Request End --
+2017-03-27 14:01:22,150 INFO [10] Program - Request start --
+2017-03-27 14:01:22,156 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:29,003 ERROR [15] Program - Error Response
+2017-03-27 14:01:29,054 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 14:01:29,070 INFO [10] Program - Request End --
+2017-03-27 14:01:29,073 INFO [10] Program - Request start --
+2017-03-27 14:01:29,074 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:33,200 INFO [15] Program - Sucess Response
+2017-03-27 14:01:33,202 INFO [15] Program - {"Data":{"UniqueId":"1801","SerialNo":"1094"},"Response":{"Value":"Created"}}
+2017-03-27 14:01:33,210 INFO [10] Program - Request End --
+2017-03-27 14:01:33,218 INFO [10] Program - Request start --
+2017-03-27 14:01:33,220 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:35,655 ERROR [15] Program - Error Response
+2017-03-27 14:01:35,661 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 14:01:35,663 INFO [10] Program - Request End --
+2017-03-27 14:01:35,671 INFO [10] Program - Request start --
+2017-03-27 14:01:35,673 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:38,310 INFO [15] Program - Sucess Response
+2017-03-27 14:01:38,312 INFO [15] Program - {"Data":{"UniqueId":"1803","SerialNo":"1095"},"Response":{"Value":"Created"}}
+2017-03-27 14:01:38,315 INFO [10] Program - Request End --
+2017-03-27 14:01:38,322 INFO [10] Program - Request start --
+2017-03-27 14:01:38,324 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 14:01:41,653 ERROR [15] Program - Error Response
+2017-03-27 14:01:58,913 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 14:01:58,918 INFO [10] Program - Request End --
+2017-03-27 14:01:58,923 INFO [10] Program - Request start --
+2017-03-27 14:01:58,928 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:50:57,670 INFO [10] Program - Request start --
+2017-03-27 16:50:57,725 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:33,665 INFO [15] Program - Sucess Response
+2017-03-27 16:51:33,902 INFO [15] Program - {"Data":{"UniqueId":"1979","SerialNo":"1183"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:33,904 INFO [10] Program - Request End --
+2017-03-27 16:51:33,906 INFO [10] Program - Request start --
+2017-03-27 16:51:33,907 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:36,030 ERROR [3] Program - Error Response
+2017-03-27 16:51:36,067 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:36,067 INFO [10] Program - Request End --
+2017-03-27 16:51:36,072 INFO [10] Program - Request start --
+2017-03-27 16:51:36,077 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:38,446 INFO [15] Program - Sucess Response
+2017-03-27 16:51:38,447 INFO [15] Program - {"Data":{"UniqueId":"1981","SerialNo":"1184"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:38,449 INFO [10] Program - Request End --
+2017-03-27 16:51:38,453 INFO [10] Program - Request start --
+2017-03-27 16:51:38,457 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:40,464 ERROR [3] Program - Error Response
+2017-03-27 16:51:40,464 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:40,466 INFO [10] Program - Request End --
+2017-03-27 16:51:40,478 INFO [10] Program - Request start --
+2017-03-27 16:51:40,480 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:43,110 INFO [15] Program - Sucess Response
+2017-03-27 16:51:43,113 INFO [15] Program - {"Data":{"UniqueId":"1983","SerialNo":"1185"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:43,119 INFO [10] Program - Request End --
+2017-03-27 16:51:43,127 INFO [10] Program - Request start --
+2017-03-27 16:51:43,129 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:45,395 ERROR [15] Program - Error Response
+2017-03-27 16:51:45,399 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:45,401 INFO [10] Program - Request End --
+2017-03-27 16:51:45,405 INFO [10] Program - Request start --
+2017-03-27 16:51:45,409 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:47,921 INFO [3] Program - Sucess Response
+2017-03-27 16:51:47,928 INFO [3] Program - {"Data":{"UniqueId":"1985","SerialNo":"1186"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:47,938 INFO [10] Program - Request End --
+2017-03-27 16:51:47,941 INFO [10] Program - Request start --
+2017-03-27 16:51:47,942 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:49,810 ERROR [17] Program - Error Response
+2017-03-27 16:51:49,818 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:49,823 INFO [10] Program - Request End --
+2017-03-27 16:51:49,825 INFO [10] Program - Request start --
+2017-03-27 16:51:49,827 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:52,107 INFO [15] Program - Sucess Response
+2017-03-27 16:51:52,109 INFO [15] Program - {"Data":{"UniqueId":"1987","SerialNo":"1187"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:52,113 INFO [10] Program - Request End --
+2017-03-27 16:51:52,118 INFO [10] Program - Request start --
+2017-03-27 16:51:52,118 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:53,905 ERROR [12] Program - Error Response
+2017-03-27 16:51:53,908 ERROR [12] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:53,910 INFO [10] Program - Request End --
+2017-03-27 16:51:53,918 INFO [10] Program - Request start --
+2017-03-27 16:51:53,922 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:56,577 INFO [3] Program - Sucess Response
+2017-03-27 16:51:56,587 INFO [3] Program - {"Data":{"UniqueId":"1989","SerialNo":"1188"},"Response":{"Value":"Created"}}
+2017-03-27 16:51:56,601 INFO [10] Program - Request End --
+2017-03-27 16:51:56,605 INFO [10] Program - Request start --
+2017-03-27 16:51:56,607 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:51:58,957 ERROR [15] Program - Error Response
+2017-03-27 16:51:58,960 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:51:58,964 INFO [10] Program - Request End --
+2017-03-27 16:51:58,971 INFO [10] Program - Request start --
+2017-03-27 16:51:58,976 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:01,377 INFO [12] Program - Sucess Response
+2017-03-27 16:52:01,380 INFO [12] Program - {"Data":{"UniqueId":"1991","SerialNo":"1189"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:01,388 INFO [10] Program - Request End --
+2017-03-27 16:52:01,391 INFO [10] Program - Request start --
+2017-03-27 16:52:01,392 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:03,588 ERROR [3] Program - Error Response
+2017-03-27 16:52:03,590 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:03,599 INFO [10] Program - Request End --
+2017-03-27 16:52:03,602 INFO [10] Program - Request start --
+2017-03-27 16:52:03,603 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:06,217 INFO [3] Program - Sucess Response
+2017-03-27 16:52:06,224 INFO [3] Program - {"Data":{"UniqueId":"1993","SerialNo":"1190"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:06,227 INFO [10] Program - Request End --
+2017-03-27 16:52:06,234 INFO [10] Program - Request start --
+2017-03-27 16:52:06,235 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:08,386 ERROR [12] Program - Error Response
+2017-03-27 16:52:08,388 ERROR [12] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:08,390 INFO [10] Program - Request End --
+2017-03-27 16:52:08,395 INFO [10] Program - Request start --
+2017-03-27 16:52:08,396 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:11,277 INFO [15] Program - Sucess Response
+2017-03-27 16:52:11,282 INFO [15] Program - {"Data":{"UniqueId":"1995","SerialNo":"1191"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:11,294 INFO [10] Program - Request End --
+2017-03-27 16:52:11,300 INFO [10] Program - Request start --
+2017-03-27 16:52:11,305 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:13,685 ERROR [15] Program - Error Response
+2017-03-27 16:52:13,689 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:13,696 INFO [10] Program - Request End --
+2017-03-27 16:52:13,704 INFO [10] Program - Request start --
+2017-03-27 16:52:13,706 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:16,125 INFO [12] Program - Sucess Response
+2017-03-27 16:52:16,133 INFO [12] Program - {"Data":{"UniqueId":"1997","SerialNo":"1192"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:16,138 INFO [10] Program - Request End --
+2017-03-27 16:52:16,141 INFO [10] Program - Request start --
+2017-03-27 16:52:16,142 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:18,151 ERROR [3] Program - Error Response
+2017-03-27 16:52:18,153 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:18,157 INFO [10] Program - Request End --
+2017-03-27 16:52:18,164 INFO [10] Program - Request start --
+2017-03-27 16:52:18,165 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:21,082 INFO [3] Program - Sucess Response
+2017-03-27 16:52:21,083 INFO [3] Program - {"Data":{"UniqueId":"1999","SerialNo":"1193"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:21,084 INFO [10] Program - Request End --
+2017-03-27 16:52:21,085 INFO [10] Program - Request start --
+2017-03-27 16:52:21,090 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:23,222 ERROR [3] Program - Error Response
+2017-03-27 16:52:23,225 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:23,231 INFO [10] Program - Request End --
+2017-03-27 16:52:23,235 INFO [10] Program - Request start --
+2017-03-27 16:52:23,239 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:25,717 INFO [15] Program - Sucess Response
+2017-03-27 16:52:25,722 INFO [15] Program - {"Data":{"UniqueId":"2001","SerialNo":"1194"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:25,736 INFO [10] Program - Request End --
+2017-03-27 16:52:25,746 INFO [10] Program - Request start --
+2017-03-27 16:52:25,748 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:28,091 ERROR [3] Program - Error Response
+2017-03-27 16:52:28,093 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:28,099 INFO [10] Program - Request End --
+2017-03-27 16:52:28,105 INFO [10] Program - Request start --
+2017-03-27 16:52:28,106 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:30,800 INFO [15] Program - Sucess Response
+2017-03-27 16:52:30,805 INFO [15] Program - {"Data":{"UniqueId":"2003","SerialNo":"1195"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:30,807 INFO [10] Program - Request End --
+2017-03-27 16:52:30,813 INFO [10] Program - Request start --
+2017-03-27 16:52:30,815 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:32,992 ERROR [15] Program - Error Response
+2017-03-27 16:52:32,993 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:32,993 INFO [10] Program - Request End --
+2017-03-27 16:52:32,998 INFO [10] Program - Request start --
+2017-03-27 16:52:33,005 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:35,653 INFO [15] Program - Sucess Response
+2017-03-27 16:52:35,666 INFO [15] Program - {"Data":{"UniqueId":"2005","SerialNo":"1196"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:35,667 INFO [10] Program - Request End --
+2017-03-27 16:52:35,672 INFO [10] Program - Request start --
+2017-03-27 16:52:35,673 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:37,784 ERROR [3] Program - Error Response
+2017-03-27 16:52:37,788 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:37,791 INFO [10] Program - Request End --
+2017-03-27 16:52:37,804 INFO [10] Program - Request start --
+2017-03-27 16:52:37,805 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:40,190 INFO [15] Program - Sucess Response
+2017-03-27 16:52:40,194 INFO [15] Program - {"Data":{"UniqueId":"2007","SerialNo":"1197"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:40,194 INFO [10] Program - Request End --
+2017-03-27 16:52:40,198 INFO [10] Program - Request start --
+2017-03-27 16:52:40,204 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:42,309 ERROR [15] Program - Error Response
+2017-03-27 16:52:42,310 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:42,312 INFO [10] Program - Request End --
+2017-03-27 16:52:42,315 INFO [10] Program - Request start --
+2017-03-27 16:52:42,320 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:44,930 INFO [12] Program - Sucess Response
+2017-03-27 16:52:44,933 INFO [12] Program - {"Data":{"UniqueId":"2009","SerialNo":"1198"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:44,934 INFO [10] Program - Request End --
+2017-03-27 16:52:44,944 INFO [10] Program - Request start --
+2017-03-27 16:52:44,945 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:47,148 ERROR [15] Program - Error Response
+2017-03-27 16:52:47,148 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:47,148 INFO [10] Program - Request End --
+2017-03-27 16:52:47,168 INFO [10] Program - Request start --
+2017-03-27 16:52:47,171 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:49,557 INFO [3] Program - Sucess Response
+2017-03-27 16:52:49,559 INFO [3] Program - {"Data":{"UniqueId":"2011","SerialNo":"1199"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:49,560 INFO [10] Program - Request End --
+2017-03-27 16:52:49,566 INFO [10] Program - Request start --
+2017-03-27 16:52:49,571 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:51,609 ERROR [12] Program - Error Response
+2017-03-27 16:52:51,611 ERROR [12] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:51,618 INFO [10] Program - Request End --
+2017-03-27 16:52:51,620 INFO [10] Program - Request start --
+2017-03-27 16:52:51,622 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:54,005 INFO [3] Program - Sucess Response
+2017-03-27 16:52:54,011 INFO [3] Program - {"Data":{"UniqueId":"2013","SerialNo":"1200"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:54,013 INFO [10] Program - Request End --
+2017-03-27 16:52:54,015 INFO [10] Program - Request start --
+2017-03-27 16:52:54,017 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:55,924 ERROR [15] Program - Error Response
+2017-03-27 16:52:55,931 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:52:55,942 INFO [10] Program - Request End --
+2017-03-27 16:52:55,956 INFO [10] Program - Request start --
+2017-03-27 16:52:55,958 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:52:59,021 INFO [3] Program - Sucess Response
+2017-03-27 16:52:59,022 INFO [3] Program - {"Data":{"UniqueId":"2015","SerialNo":"1201"},"Response":{"Value":"Created"}}
+2017-03-27 16:52:59,042 INFO [10] Program - Request End --
+2017-03-27 16:52:59,049 INFO [10] Program - Request start --
+2017-03-27 16:52:59,054 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:01,284 ERROR [3] Program - Error Response
+2017-03-27 16:53:01,293 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:01,293 INFO [10] Program - Request End --
+2017-03-27 16:53:01,303 INFO [10] Program - Request start --
+2017-03-27 16:53:01,306 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:03,782 INFO [12] Program - Sucess Response
+2017-03-27 16:53:03,784 INFO [12] Program - {"Data":{"UniqueId":"2017","SerialNo":"1202"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:03,791 INFO [10] Program - Request End --
+2017-03-27 16:53:03,794 INFO [10] Program - Request start --
+2017-03-27 16:53:03,804 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:05,686 ERROR [3] Program - Error Response
+2017-03-27 16:53:05,687 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:05,689 INFO [10] Program - Request End --
+2017-03-27 16:53:05,696 INFO [10] Program - Request start --
+2017-03-27 16:53:05,697 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:08,470 INFO [12] Program - Sucess Response
+2017-03-27 16:53:08,477 INFO [12] Program - {"Data":{"UniqueId":"2019","SerialNo":"1203"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:08,478 INFO [10] Program - Request End --
+2017-03-27 16:53:08,479 INFO [10] Program - Request start --
+2017-03-27 16:53:08,485 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:10,923 ERROR [3] Program - Error Response
+2017-03-27 16:53:10,923 ERROR [3] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:10,940 INFO [10] Program - Request End --
+2017-03-27 16:53:10,944 INFO [10] Program - Request start --
+2017-03-27 16:53:10,945 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:13,566 INFO [15] Program - Sucess Response
+2017-03-27 16:53:13,572 INFO [15] Program - {"Data":{"UniqueId":"2021","SerialNo":"1204"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:13,578 INFO [10] Program - Request End --
+2017-03-27 16:53:13,583 INFO [10] Program - Request start --
+2017-03-27 16:53:13,588 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:15,885 ERROR [15] Program - Error Response
+2017-03-27 16:53:15,886 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:15,900 INFO [10] Program - Request End --
+2017-03-27 16:53:15,904 INFO [10] Program - Request start --
+2017-03-27 16:53:15,909 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:18,317 INFO [3] Program - Sucess Response
+2017-03-27 16:53:18,321 INFO [3] Program - {"Data":{"UniqueId":"2023","SerialNo":"1205"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:18,331 INFO [10] Program - Request End --
+2017-03-27 16:53:18,338 INFO [10] Program - Request start --
+2017-03-27 16:53:18,340 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:20,412 ERROR [15] Program - Error Response
+2017-03-27 16:53:20,418 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:20,420 INFO [10] Program - Request End --
+2017-03-27 16:53:20,428 INFO [10] Program - Request start --
+2017-03-27 16:53:20,431 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:22,940 INFO [15] Program - Sucess Response
+2017-03-27 16:53:22,943 INFO [15] Program - {"Data":{"UniqueId":"2025","SerialNo":"1206"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:22,945 INFO [10] Program - Request End --
+2017-03-27 16:53:22,950 INFO [10] Program - Request start --
+2017-03-27 16:53:22,952 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:24,957 ERROR [15] Program - Error Response
+2017-03-27 16:53:24,959 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:24,966 INFO [10] Program - Request End --
+2017-03-27 16:53:24,979 INFO [10] Program - Request start --
+2017-03-27 16:53:24,981 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:27,458 INFO [15] Program - Sucess Response
+2017-03-27 16:53:27,459 INFO [15] Program - {"Data":{"UniqueId":"2027","SerialNo":"1207"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:27,461 INFO [10] Program - Request End --
+2017-03-27 16:53:27,473 INFO [10] Program - Request start --
+2017-03-27 16:53:27,485 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:29,893 ERROR [15] Program - Error Response
+2017-03-27 16:53:29,898 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:29,904 INFO [10] Program - Request End --
+2017-03-27 16:53:29,924 INFO [10] Program - Request start --
+2017-03-27 16:53:29,927 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:32,675 INFO [15] Program - Sucess Response
+2017-03-27 16:53:32,680 INFO [15] Program - {"Data":{"UniqueId":"2029","SerialNo":"1208"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:32,688 INFO [10] Program - Request End --
+2017-03-27 16:53:32,700 INFO [10] Program - Request start --
+2017-03-27 16:53:32,701 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:34,817 ERROR [15] Program - Error Response
+2017-03-27 16:53:34,821 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"}]}
+2017-03-27 16:53:34,825 INFO [10] Program - Request End --
+2017-03-27 16:53:34,833 INFO [10] Program - Request start --
+2017-03-27 16:53:34,834 INFO [10] Program - {"AccountCode":"009900.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}
+2017-03-27 16:53:37,122 INFO [15] Program - Sucess Response
+2017-03-27 16:53:37,124 INFO [15] Program - {"Data":{"UniqueId":"2031","SerialNo":"1209"},"Response":{"Value":"Created"}}
+2017-03-27 16:53:37,127 INFO [10] Program - Request End --
+2017-03-27 16:53:37,141 INFO [10] Program - Request start --
+2017-03-27 16:53:37,142 INFO [10] Program - {"AccountCode":"S.T","SerialNo":null,"TradeDate":"2017-03-21T00:00:00","Code":"HED","DepartmentCode":"8530","InstrumentCode":"NY11","PromptMonth":"2017-09-01","Instruction":null,"OptionType":null,"OptionSeries":0.0,"BuySell":"S","Lots":1,"PhysRef":null,"BrokerCode":"MCA.T","Price":2254.0,"FloorBrokerCode":"JPM.T","TraderCode":"JRH","Memo":"CTC Trade ID-1TY4UK12345 by Trader: DZL, OrderTag:: ","StrategyCode":null,"StrategyGroup":null,"Memo2":null,"ExternalSerial":"125TYTYT"}

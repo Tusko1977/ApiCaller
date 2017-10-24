@@ -1,0 +1,270 @@
+2017-04-28 11:18:58,753 ERROR [10] Program - Exception occured---Newtonsoft.Json.JsonReaderException: Error reading string. Unexpected token: StartObject. Path '[0].EndPointURI', line 3, position 21.
+   at Newtonsoft.Json.JsonReader.ReadAsStringInternal()
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at EndPointCaller.JsonMessageReader.GetJasonMessagesObjects() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\JsonMessageReader.cs:line 44
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 51
+2017-04-28 12:00:26,554 INFO [7] Program - Request start --
+2017-04-28 12:00:26,957 INFO [7] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:00:42,560 ERROR [7] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:53376
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 71
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 59
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:53376
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 71<---
+
+2017-04-28 12:01:39,941 INFO [8] Program - Request start --
+2017-04-28 12:01:39,958 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:01:43,701 ERROR [15] Program - Error Response
+2017-04-28 12:01:43,761 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:01:43,767 INFO [8] Program - Request End --
+2017-04-28 12:01:58,522 INFO [8] Program - Request start --
+2017-04-28 12:01:58,529 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:01:59,956 ERROR [9] Program - Error Response
+2017-04-28 12:01:59,962 ERROR [9] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:01:59,967 INFO [8] Program - Request End --
+2017-04-28 12:01:59,973 INFO [8] Program - Request start --
+2017-04-28 12:01:59,978 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:01,527 ERROR [16] Program - Error Response
+2017-04-28 12:02:01,533 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:01,538 INFO [8] Program - Request End --
+2017-04-28 12:02:01,545 INFO [8] Program - Request start --
+2017-04-28 12:02:01,549 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:03,236 ERROR [16] Program - Error Response
+2017-04-28 12:02:03,246 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:03,251 INFO [8] Program - Request End --
+2017-04-28 12:02:03,257 INFO [8] Program - Request start --
+2017-04-28 12:02:03,262 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:04,753 ERROR [16] Program - Error Response
+2017-04-28 12:02:04,759 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:04,763 INFO [8] Program - Request End --
+2017-04-28 12:02:04,767 INFO [8] Program - Request start --
+2017-04-28 12:02:04,772 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:06,315 ERROR [16] Program - Error Response
+2017-04-28 12:02:06,321 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:06,329 INFO [8] Program - Request End --
+2017-04-28 12:02:06,337 INFO [8] Program - Request start --
+2017-04-28 12:02:06,342 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:07,981 ERROR [16] Program - Error Response
+2017-04-28 12:02:07,987 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:07,993 INFO [8] Program - Request End --
+2017-04-28 12:02:08,000 INFO [8] Program - Request start --
+2017-04-28 12:02:08,005 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:09,495 ERROR [16] Program - Error Response
+2017-04-28 12:02:09,502 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:09,510 INFO [8] Program - Request End --
+2017-04-28 12:02:09,518 INFO [8] Program - Request start --
+2017-04-28 12:02:09,523 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:11,035 ERROR [16] Program - Error Response
+2017-04-28 12:02:11,042 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:11,049 INFO [8] Program - Request End --
+2017-04-28 12:02:11,057 INFO [8] Program - Request start --
+2017-04-28 12:02:11,063 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:12,547 ERROR [16] Program - Error Response
+2017-04-28 12:02:12,553 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:12,563 INFO [8] Program - Request End --
+2017-04-28 12:02:12,572 INFO [8] Program - Request start --
+2017-04-28 12:02:12,578 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:14,084 ERROR [16] Program - Error Response
+2017-04-28 12:02:14,090 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:14,096 INFO [8] Program - Request End --
+2017-04-28 12:02:14,105 INFO [8] Program - Request start --
+2017-04-28 12:02:14,112 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:15,898 ERROR [17] Program - Error Response
+2017-04-28 12:02:15,906 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:15,915 INFO [8] Program - Request End --
+2017-04-28 12:02:15,925 INFO [8] Program - Request start --
+2017-04-28 12:02:15,931 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:18,029 ERROR [17] Program - Error Response
+2017-04-28 12:02:18,036 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:18,043 INFO [8] Program - Request End --
+2017-04-28 12:02:18,051 INFO [8] Program - Request start --
+2017-04-28 12:02:18,057 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:19,643 ERROR [17] Program - Error Response
+2017-04-28 12:02:19,649 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:19,655 INFO [8] Program - Request End --
+2017-04-28 12:02:19,663 INFO [8] Program - Request start --
+2017-04-28 12:02:19,668 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:21,123 ERROR [17] Program - Error Response
+2017-04-28 12:02:21,129 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:21,136 INFO [8] Program - Request End --
+2017-04-28 12:02:21,145 INFO [8] Program - Request start --
+2017-04-28 12:02:21,151 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:22,634 ERROR [17] Program - Error Response
+2017-04-28 12:02:22,641 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:22,648 INFO [8] Program - Request End --
+2017-04-28 12:02:22,656 INFO [8] Program - Request start --
+2017-04-28 12:02:22,662 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:24,266 ERROR [17] Program - Error Response
+2017-04-28 12:02:24,272 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:24,279 INFO [8] Program - Request End --
+2017-04-28 12:02:24,288 INFO [8] Program - Request start --
+2017-04-28 12:02:24,294 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:25,964 ERROR [17] Program - Error Response
+2017-04-28 12:02:25,971 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:25,981 INFO [8] Program - Request End --
+2017-04-28 12:02:25,998 INFO [8] Program - Request start --
+2017-04-28 12:02:26,004 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:43,447 INFO [10] Program - Request start --
+2017-04-28 12:02:43,465 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:45,477 ERROR [16] Program - Error Response
+2017-04-28 12:02:45,538 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:45,543 INFO [10] Program - Request End --
+2017-04-28 12:02:45,548 INFO [10] Program - Request start --
+2017-04-28 12:02:45,552 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:47,730 ERROR [16] Program - Error Response
+2017-04-28 12:02:47,735 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:47,741 INFO [10] Program - Request End --
+2017-04-28 12:02:47,748 INFO [10] Program - Request start --
+2017-04-28 12:02:47,752 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:49,720 ERROR [16] Program - Error Response
+2017-04-28 12:02:49,726 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:49,733 INFO [10] Program - Request End --
+2017-04-28 12:02:49,740 INFO [10] Program - Request start --
+2017-04-28 12:02:49,745 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:51,277 ERROR [16] Program - Error Response
+2017-04-28 12:02:51,283 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:51,288 INFO [10] Program - Request End --
+2017-04-28 12:02:51,294 INFO [10] Program - Request start --
+2017-04-28 12:02:51,299 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:53,251 ERROR [16] Program - Error Response
+2017-04-28 12:02:53,256 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:53,262 INFO [10] Program - Request End --
+2017-04-28 12:02:53,268 INFO [10] Program - Request start --
+2017-04-28 12:02:53,273 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:55,025 ERROR [16] Program - Error Response
+2017-04-28 12:02:55,030 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:55,036 INFO [10] Program - Request End --
+2017-04-28 12:02:55,043 INFO [10] Program - Request start --
+2017-04-28 12:02:55,048 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:57,012 ERROR [16] Program - Error Response
+2017-04-28 12:02:57,019 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:57,026 INFO [10] Program - Request End --
+2017-04-28 12:02:57,033 INFO [10] Program - Request start --
+2017-04-28 12:02:57,038 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:02:58,710 ERROR [16] Program - Error Response
+2017-04-28 12:02:58,716 ERROR [16] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:02:58,722 INFO [10] Program - Request End --
+2017-04-28 12:02:58,730 INFO [10] Program - Request start --
+2017-04-28 12:02:58,735 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:03:00,583 ERROR [11] Program - Error Response
+2017-04-28 12:03:00,589 ERROR [11] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:03:00,595 INFO [10] Program - Request End --
+2017-04-28 12:03:00,602 INFO [10] Program - Request start --
+2017-04-28 12:03:00,610 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:03:09,502 ERROR [11] Program - Error Response
+2017-04-28 12:03:12,250 ERROR [11] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:03:14,330 INFO [10] Program - Request End --
+2017-04-28 12:03:23,266 INFO [10] Program - Request start --
+2017-04-28 12:03:23,475 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:07,567 INFO [10] Program - Request start --
+2017-04-28 12:08:07,583 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:11,733 ERROR [17] Program - Error Response
+2017-04-28 12:08:11,804 ERROR [17] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:11,810 INFO [10] Program - Request End --
+2017-04-28 12:08:11,816 INFO [10] Program - Request start --
+2017-04-28 12:08:11,821 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:29,229 ERROR [18] Program - Error Response
+2017-04-28 12:08:29,235 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:29,240 INFO [10] Program - Request End --
+2017-04-28 12:08:29,247 INFO [10] Program - Request start --
+2017-04-28 12:08:29,252 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:30,653 ERROR [18] Program - Error Response
+2017-04-28 12:08:30,659 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:30,665 INFO [10] Program - Request End --
+2017-04-28 12:08:30,671 INFO [10] Program - Request start --
+2017-04-28 12:08:30,675 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:32,047 ERROR [18] Program - Error Response
+2017-04-28 12:08:32,053 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:32,059 INFO [10] Program - Request End --
+2017-04-28 12:08:32,065 INFO [10] Program - Request start --
+2017-04-28 12:08:32,069 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:33,593 ERROR [18] Program - Error Response
+2017-04-28 12:08:33,599 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:33,605 INFO [10] Program - Request End --
+2017-04-28 12:08:33,612 INFO [10] Program - Request start --
+2017-04-28 12:08:33,618 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:35,102 ERROR [18] Program - Error Response
+2017-04-28 12:08:35,108 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:35,114 INFO [10] Program - Request End --
+2017-04-28 12:08:35,122 INFO [10] Program - Request start --
+2017-04-28 12:08:35,126 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:36,645 ERROR [18] Program - Error Response
+2017-04-28 12:08:36,658 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:36,670 INFO [10] Program - Request End --
+2017-04-28 12:08:36,677 INFO [10] Program - Request start --
+2017-04-28 12:08:36,682 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:38,182 ERROR [18] Program - Error Response
+2017-04-28 12:08:38,188 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:38,195 INFO [10] Program - Request End --
+2017-04-28 12:08:38,203 INFO [10] Program - Request start --
+2017-04-28 12:08:38,208 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:39,679 ERROR [11] Program - Error Response
+2017-04-28 12:08:39,684 ERROR [11] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:39,690 INFO [10] Program - Request End --
+2017-04-28 12:08:39,697 INFO [10] Program - Request start --
+2017-04-28 12:08:39,702 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:41,268 ERROR [18] Program - Error Response
+2017-04-28 12:08:41,274 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:41,279 INFO [10] Program - Request End --
+2017-04-28 12:08:41,285 INFO [10] Program - Request start --
+2017-04-28 12:08:41,290 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:42,856 ERROR [18] Program - Error Response
+2017-04-28 12:08:50,146 ERROR [18] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:50,151 INFO [10] Program - Request End --
+2017-04-28 12:08:50,160 INFO [10] Program - Request start --
+2017-04-28 12:08:50,165 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:08:51,799 ERROR [19] Program - Error Response
+2017-04-28 12:08:57,956 ERROR [19] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: S.T"},{"Severity":"Error","Message":"API5084 - LEG: TraderCode : Trader initials 'JRH' are not set up OR not nominated as a trader"}]}
+2017-04-28 12:08:57,962 INFO [10] Program - Request End --
+2017-04-28 12:08:57,970 INFO [10] Program - Request start --
+2017-04-28 12:08:57,976 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:14:11,297 INFO [10] Program - Request start --
+2017-04-28 12:14:11,315 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:14:13,701 INFO [17] Program - Sucess Response
+2017-04-28 12:14:22,336 INFO [17] Program - {"Data":{"UniqueId":"341","SerialNo":"177"},"Response":{"Value":"Created"}}
+2017-04-28 12:14:22,341 INFO [10] Program - Request End --
+2017-04-28 12:14:22,346 INFO [10] Program - Request start --
+2017-04-28 12:14:22,351 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:14:24,099 INFO [17] Program - Sucess Response
+2017-04-28 12:14:24,105 INFO [17] Program - {"Data":{"UniqueId":"343","SerialNo":"178"},"Response":{"Value":"Created"}}
+2017-04-28 12:14:24,112 INFO [10] Program - Request End --
+2017-04-28 12:14:24,118 INFO [10] Program - Request start --
+2017-04-28 12:14:24,124 INFO [10] Program - EndPointCaller.JsonEndPointTemplate
+2017-04-28 12:14:25,837 INFO [17] Program - Sucess Response
+2017-04-28 12:14:25,842 INFO [17] Program - {"Data":{"UniqueId":"345","SerialNo":"179"},"Response":{"Value":"Created"}}
+2017-04-28 12:14:25,848 INFO [10] Program - Request End --
+2017-04-28 12:14:25,855 INFO [10] Program - Request start --
+2017-04-28 12:14:25,861 INFO [10] Program - EndPointCaller.JsonEndPointTemplate

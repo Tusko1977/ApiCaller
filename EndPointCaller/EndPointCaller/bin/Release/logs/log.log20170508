@@ -1,0 +1,67 @@
+2017-05-08 11:06:54,877 INFO [1] Program - Request start --
+2017-05-08 11:06:54,892 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:06:56,916 INFO [9] Program - Sucess Response
+2017-05-08 11:06:56,976 INFO [9] Program - {"Data":{"UniqueId":"931","SerialNo":"472"},"Response":{"Value":"Created"}}
+2017-05-08 11:06:56,980 INFO [1] Program - Request End --
+2017-05-08 11:06:56,984 INFO [1] Program - Request start --
+2017-05-08 11:06:56,988 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:06:58,629 ERROR [9] Program - Error Response
+2017-05-08 11:06:58,643 ERROR [9] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Broker : Invalid Account: VOL.T"},{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(169.75)"},{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: 009900.T"},{"Severity":"Error","Message":"API5084 - LEG: Department : Invalid Department code"},{"Severity":"Error","Message":"API5084 - LEG: ExternalSerial : This company does not operate External Serial Number"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(169.75)"}]}
+2017-05-08 11:06:58,650 INFO [1] Program - Request End --
+2017-05-08 11:06:58,657 INFO [1] Program - Request start --
+2017-05-08 11:06:58,661 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:00,174 INFO [9] Program - Sucess Response
+2017-05-08 11:07:00,179 INFO [9] Program - {"Data":{"UniqueId":"933","SerialNo":"473"},"Response":{"Value":"Created"}}
+2017-05-08 11:07:00,183 INFO [1] Program - Request End --
+2017-05-08 11:07:00,188 INFO [1] Program - Request start --
+2017-05-08 11:07:00,193 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:01,620 ERROR [4] Program - Error Response
+2017-05-08 11:07:01,625 ERROR [4] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Broker : Invalid Account: VOL.T"},{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(169.75)"},{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: 009900.T"},{"Severity":"Error","Message":"API5084 - LEG: Department : Invalid Department code"},{"Severity":"Error","Message":"API5084 - LEG: ExternalSerial : This company does not operate External Serial Number"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(169.75)"}]}
+2017-05-08 11:07:01,631 INFO [1] Program - Request End --
+2017-05-08 11:07:01,637 INFO [1] Program - Request start --
+2017-05-08 11:07:01,641 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:03,182 INFO [9] Program - Sucess Response
+2017-05-08 11:07:03,187 INFO [9] Program - {"Data":{"UniqueId":"935","SerialNo":"474"},"Response":{"Value":"Created"}}
+2017-05-08 11:07:03,193 INFO [1] Program - Request End --
+2017-05-08 11:07:03,199 INFO [1] Program - Request start --
+2017-05-08 11:07:03,204 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:30,926 INFO [1] Program - Request start --
+2017-05-08 11:07:30,944 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:32,559 INFO [9] Program - Sucess Response
+2017-05-08 11:07:32,628 INFO [9] Program - {"Data":{"UniqueId":"937","SerialNo":"475"},"Response":{"Value":"Created"}}
+2017-05-08 11:07:32,634 INFO [1] Program - Request End --
+2017-05-08 11:07:32,638 INFO [1] Program - Request start --
+2017-05-08 11:07:32,642 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:07:34,045 ERROR [9] Program - Error Response
+2017-05-08 11:07:34,058 ERROR [9] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Broker : Invalid Account: VOL.T"},{"Severity":"Warning","Message":"API5084 - LEG: fut02_brokerprice : The Spot price in not within 10% of the market price.(169.75)"},{"Severity":"Error","Message":"API5084 - LEG: Account : Invalid Account: 009900.T"},{"Severity":"Error","Message":"API5084 - LEG: Department : Invalid Department code"},{"Severity":"Error","Message":"API5084 - LEG: ExternalSerial : This company does not operate External Serial Number"},{"Severity":"Warning","Message":"API5084 - LEG: Price : The Spot price in not within 10% of the market price.(169.75)"}]}
+2017-05-08 11:07:34,065 INFO [1] Program - Request End --
+2017-05-08 11:10:34,236 INFO [1] Program - Request start --
+2017-05-08 11:10:34,252 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:10:35,745 INFO [8] Program - Sucess Response
+2017-05-08 11:10:35,807 INFO [8] Program - {"Data":{"UniqueId":"939","SerialNo":"476"},"Response":{"Value":"Created"}}
+2017-05-08 11:10:35,813 INFO [1] Program - Request End --
+2017-05-08 11:10:35,818 INFO [1] Program - Request start --
+2017-05-08 11:10:35,823 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:10:36,052 ERROR [9] Program - Error Response
+2017-05-08 11:10:36,066 ERROR [9] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Cannot perform runtime binding on a null reference"}]}
+2017-05-08 11:10:36,070 INFO [1] Program - Request End --
+2017-05-08 11:11:27,419 INFO [1] Program - Request start --
+2017-05-08 11:11:27,435 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:11:29,031 INFO [9] Program - Sucess Response
+2017-05-08 11:11:29,094 INFO [9] Program - {"Data":{"UniqueId":"941","SerialNo":"477"},"Response":{"Value":"Created"}}
+2017-05-08 11:11:29,100 INFO [1] Program - Request End --
+2017-05-08 11:11:29,105 INFO [1] Program - Request start --
+2017-05-08 11:11:29,107 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:11:35,157 ERROR [9] Program - Error Response
+2017-05-08 11:11:35,236 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 79
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 38
+---> (Inner Exception #0) System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 79<---
+

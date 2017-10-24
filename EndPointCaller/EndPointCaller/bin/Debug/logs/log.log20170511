@@ -1,0 +1,38 @@
+2017-05-11 15:24:43,849 INFO [9] Program - Request start --
+2017-05-11 15:24:46,347 INFO [9] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-11 16:11:14,805 INFO [10] Program - Request start --
+2017-05-11 16:11:14,821 INFO [10] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-05-11 16:11:15,696 INFO [17] Program - Sucess Response
+2017-05-11 16:11:15,818 INFO [17] Program - {"Data":{"UniqueId":null,"SerialNo":null},"Response":{"Value":"Created"}}
+2017-05-11 16:11:15,824 INFO [10] Program - Request End --
+2017-05-11 16:11:15,828 INFO [10] Program - Request start --
+2017-05-11 16:11:15,833 INFO [10] Program - http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/
+2017-05-11 16:11:15,847 ERROR [17] Program - Error Response
+2017-05-11 16:11:15,852 ERROR [17] Program - Not Found
+2017-05-11 16:11:15,857 ERROR [17] Program - 404
+2017-05-11 16:11:15,876 ERROR [17] Program - {"headerReasonPhrase":null,"Response":{"Value":"404 Not Found"},"Messages":[{"Severity":"Error","Message":"No HTTP resource was found that matches the request URI 'http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/'."}]}
+2017-05-11 16:11:15,882 INFO [10] Program - Request End --
+2017-05-11 16:13:06,616 INFO [10] Program - Request start --
+2017-05-11 16:13:06,633 INFO [10] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-05-11 16:13:07,168 INFO [17] Program - Sucess Response
+2017-05-11 16:13:07,199 INFO [17] Program - {"Data":{"CashDocRef":"CI1600874"},"Response":{"Value":"Created"}}
+2017-05-11 16:13:07,215 INFO [10] Program - Request End --
+2017-05-11 16:13:07,215 INFO [10] Program - Request start --
+2017-05-11 16:13:07,230 INFO [10] Program - http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/
+2017-05-11 16:13:07,230 ERROR [17] Program - Error Response
+2017-05-11 16:13:07,251 ERROR [17] Program - Not Found
+2017-05-11 16:13:07,259 ERROR [17] Program - 404
+2017-05-11 16:13:07,293 ERROR [17] Program - {"headerReasonPhrase":null,"Response":{"Value":"404 Not Found"},"Messages":[{"Severity":"Error","Message":"No HTTP resource was found that matches the request URI 'http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/'."}]}
+2017-05-11 16:13:07,299 INFO [10] Program - Request End --
+2017-05-11 16:15:57,455 INFO [10] Program - Request start --
+2017-05-11 16:15:57,476 INFO [10] Program - http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual
+2017-05-11 16:15:58,013 INFO [16] Program - Sucess Response
+2017-05-11 16:15:58,052 INFO [16] Program - {"Data":{"CashDocRef":"CI1600875"},"Response":{"Value":"Created"}}
+2017-05-11 16:15:58,057 INFO [10] Program - Request End --
+2017-05-11 16:15:58,091 INFO [10] Program - Request start --
+2017-05-11 16:15:58,097 INFO [10] Program - http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/
+2017-05-11 16:15:58,110 ERROR [17] Program - Error Response
+2017-05-11 16:15:58,117 ERROR [17] Program - Not Found
+2017-05-11 16:15:58,121 ERROR [17] Program - 404
+2017-05-11 16:15:58,156 ERROR [17] Program - {"headerReasonPhrase":null,"Response":{"Value":"404 Not Found"},"Messages":[{"Severity":"Error","Message":"No HTTP resource was found that matches the request URI 'http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/'."}]}
+2017-05-11 16:15:58,161 INFO [10] Program - Request End --

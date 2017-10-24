@@ -1,0 +1,560 @@
+2017-05-08 10:42:47,424 INFO [9] Program - Request start --
+2017-05-08 10:42:47,439 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:50,675 INFO [15] Program - Sucess Response
+2017-05-08 10:42:50,760 INFO [15] Program - {"Data":{"UniqueId":"903","SerialNo":"458"},"Response":{"Value":"Created"}}
+2017-05-08 10:42:50,764 INFO [9] Program - Request End --
+2017-05-08 10:42:50,768 INFO [9] Program - Request start --
+2017-05-08 10:42:50,771 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:51,114 ERROR [15] Program - Error Response
+2017-05-08 10:42:51,128 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Cannot perform runtime binding on a null reference"}]}
+2017-05-08 10:42:51,132 INFO [9] Program - Request End --
+2017-05-08 10:42:51,137 INFO [9] Program - Request start --
+2017-05-08 10:42:51,140 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:52,596 INFO [15] Program - Sucess Response
+2017-05-08 10:42:52,601 INFO [15] Program - {"Data":{"UniqueId":"905","SerialNo":"459"},"Response":{"Value":"Created"}}
+2017-05-08 10:42:52,605 INFO [9] Program - Request End --
+2017-05-08 10:42:52,610 INFO [9] Program - Request start --
+2017-05-08 10:42:52,613 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:52,843 ERROR [15] Program - Error Response
+2017-05-08 10:42:52,848 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Cannot perform runtime binding on a null reference"}]}
+2017-05-08 10:42:52,853 INFO [9] Program - Request End --
+2017-05-08 10:42:52,858 INFO [9] Program - Request start --
+2017-05-08 10:42:52,863 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:54,417 INFO [15] Program - Sucess Response
+2017-05-08 10:42:54,422 INFO [15] Program - {"Data":{"UniqueId":"907","SerialNo":"460"},"Response":{"Value":"Created"}}
+2017-05-08 10:42:54,427 INFO [9] Program - Request End --
+2017-05-08 10:42:54,432 INFO [9] Program - Request start --
+2017-05-08 10:42:54,437 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:42:54,693 ERROR [15] Program - Error Response
+2017-05-08 10:42:54,697 ERROR [15] Program - {"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Cannot perform runtime binding on a null reference"}]}
+2017-05-08 10:42:54,702 INFO [9] Program - Request End --
+2017-05-08 10:42:54,708 INFO [9] Program - Request start --
+2017-05-08 10:42:54,712 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:53:19,224 INFO [8] Program - Request start --
+2017-05-08 10:53:19,241 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:53:20,918 INFO [15] Program - Sucess Response
+2017-05-08 10:53:20,984 INFO [15] Program - {"Data":{"UniqueId":"911","SerialNo":"462"},"Response":{"Value":"Created"}}
+2017-05-08 10:53:20,989 INFO [8] Program - Request End --
+2017-05-08 10:53:20,993 INFO [8] Program - Request start --
+2017-05-08 10:53:20,997 INFO [8] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:53:21,341 ERROR [8] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65<---
+
+2017-05-08 10:54:18,453 INFO [9] Program - Request start --
+2017-05-08 10:54:18,649 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:54:20,657 INFO [16] Program - Sucess Response
+2017-05-08 10:54:20,725 INFO [16] Program - {"Data":{"UniqueId":"913","SerialNo":"463"},"Response":{"Value":"Created"}}
+2017-05-08 10:54:21,502 INFO [9] Program - Request End --
+2017-05-08 10:54:25,760 INFO [9] Program - Request start --
+2017-05-08 10:54:25,930 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:54:27,089 ERROR [9] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65<---
+
+2017-05-08 10:55:19,912 INFO [9] Program - Request start --
+2017-05-08 10:55:19,929 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:55:21,440 INFO [10] Program - Sucess Response
+2017-05-08 10:55:21,509 INFO [10] Program - {"Data":{"UniqueId":"915","SerialNo":"464"},"Response":{"Value":"Created"}}
+2017-05-08 10:55:21,514 INFO [9] Program - Request End --
+2017-05-08 10:55:22,239 INFO [9] Program - Request start --
+2017-05-08 10:55:22,245 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:55:22,269 ERROR [9] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65<---
+
+2017-05-08 10:55:40,481 INFO [9] Program - Request start --
+2017-05-08 10:55:40,498 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:55:42,047 INFO [14] Program - Sucess Response
+2017-05-08 10:55:42,117 INFO [14] Program - {"Data":{"UniqueId":"917","SerialNo":"465"},"Response":{"Value":"Created"}}
+2017-05-08 10:55:42,122 INFO [9] Program - Request End --
+2017-05-08 10:55:43,099 INFO [9] Program - Request start --
+2017-05-08 10:55:43,104 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:55:43,124 ERROR [9] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 65<---
+
+2017-05-08 10:56:40,915 INFO [9] Program - Request start --
+2017-05-08 10:56:40,931 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:56:42,495 INFO [15] Program - Sucess Response
+2017-05-08 10:56:42,563 INFO [15] Program - {"Data":{"UniqueId":"919","SerialNo":"466"},"Response":{"Value":"Created"}}
+2017-05-08 10:56:42,571 INFO [9] Program - Request End --
+2017-05-08 10:56:44,327 INFO [9] Program - Request start --
+2017-05-08 10:56:44,332 INFO [9] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:56:45,914 INFO [15] Program - Sucess Response
+2017-05-08 10:56:45,920 INFO [15] Program - {"Data":{"UniqueId":"921","SerialNo":"467"},"Response":{"Value":"Created"}}
+2017-05-08 10:56:45,927 INFO [9] Program - Request End --
+2017-05-08 10:57:39,688 INFO [1] Program - Request start --
+2017-05-08 10:57:39,704 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:57:41,291 INFO [9] Program - Sucess Response
+2017-05-08 10:57:41,355 INFO [9] Program - {"Data":{"UniqueId":"923","SerialNo":"468"},"Response":{"Value":"Created"}}
+2017-05-08 10:57:41,361 INFO [1] Program - Request End --
+2017-05-08 10:57:42,899 INFO [1] Program - Request start --
+2017-05-08 10:57:42,905 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:57:44,436 INFO [9] Program - Sucess Response
+2017-05-08 10:57:44,443 INFO [9] Program - {"Data":{"UniqueId":"925","SerialNo":"469"},"Response":{"Value":"Created"}}
+2017-05-08 10:57:44,448 INFO [1] Program - Request End --
+2017-05-08 10:57:56,643 INFO [1] Program - Request start --
+2017-05-08 10:57:56,649 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:57:58,098 INFO [3] Program - Sucess Response
+2017-05-08 10:57:58,118 INFO [3] Program - {"Data":{"UniqueId":"927","SerialNo":"470"},"Response":{"Value":"Created"}}
+2017-05-08 10:57:58,123 INFO [1] Program - Request End --
+2017-05-08 10:57:58,129 INFO [1] Program - Request start --
+2017-05-08 10:57:58,133 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 10:57:59,625 INFO [3] Program - Sucess Response
+2017-05-08 10:57:59,631 INFO [3] Program - {"Data":{"UniqueId":"929","SerialNo":"471"},"Response":{"Value":"Created"}}
+2017-05-08 10:57:59,639 INFO [1] Program - Request End --
+2017-05-08 11:27:04,268 INFO [1] Program - Request start --
+2017-05-08 11:27:04,286 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:27:12,235 ERROR [9] Program - Created
+2017-05-08 11:27:12,240 INFO [9] Program - Sucess Response
+2017-05-08 11:27:12,303 INFO [9] Program - {"Data":{"UniqueId":"943","SerialNo":"478"},"Response":{"Value":"Created"}}
+2017-05-08 11:27:12,310 INFO [1] Program - Request End --
+2017-05-08 11:27:12,314 INFO [1] Program - Request start --
+2017-05-08 11:27:12,318 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:27:13,406 ERROR [9] Program - Not Found
+2017-05-08 11:27:13,412 ERROR [9] Program - Error Response
+2017-05-08 11:27:13,472 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 82
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 82<---
+
+2017-05-08 11:27:48,403 INFO [1] Program - Request start --
+2017-05-08 11:27:48,422 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:27:54,031 ERROR [9] Program - Created
+2017-05-08 11:27:54,037 INFO [9] Program - Sucess Response
+2017-05-08 11:27:54,102 INFO [9] Program - {"Data":{"UniqueId":"945","SerialNo":"479"},"Response":{"Value":"Created"}}
+2017-05-08 11:27:54,107 INFO [1] Program - Request End --
+2017-05-08 11:27:54,112 INFO [1] Program - Request start --
+2017-05-08 11:27:54,116 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:29:46,912 INFO [1] Program - Request start --
+2017-05-08 11:29:46,930 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:29:50,551 WARN [9] Program - Created
+2017-05-08 11:29:50,556 WARN [9] Program - Created
+2017-05-08 11:29:50,561 INFO [9] Program - Sucess Response
+2017-05-08 11:29:50,627 INFO [9] Program - {"Data":{"UniqueId":"947","SerialNo":"480"},"Response":{"Value":"Created"}}
+2017-05-08 11:29:50,636 INFO [1] Program - Request End --
+2017-05-08 11:29:50,641 INFO [1] Program - Request start --
+2017-05-08 11:29:50,645 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:29:54,682 WARN [9] Program - Not Found
+2017-05-08 11:29:54,688 WARN [9] Program - NotFound
+2017-05-08 11:29:54,693 ERROR [9] Program - Error Response
+2017-05-08 11:29:54,728 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83<---
+
+2017-05-08 11:30:25,373 INFO [1] Program - Request start --
+2017-05-08 11:30:25,390 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:38:56,588 WARN [9] Program - Created
+2017-05-08 11:38:56,594 WARN [9] Program - Created
+2017-05-08 11:38:56,600 INFO [9] Program - Sucess Response
+2017-05-08 11:38:56,678 INFO [9] Program - {"Data":{"UniqueId":"949","SerialNo":"481"},"Response":{"Value":"Created"}}
+2017-05-08 11:38:56,685 INFO [1] Program - Request End --
+2017-05-08 11:38:56,691 INFO [1] Program - Request start --
+2017-05-08 11:38:56,697 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:39:03,717 WARN [10] Program - Not Found
+2017-05-08 11:39:03,722 WARN [10] Program - NotFound
+2017-05-08 11:39:03,727 ERROR [10] Program - Error Response
+2017-05-08 11:39:03,760 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83<---
+
+2017-05-08 11:39:40,327 INFO [1] Program - Request start --
+2017-05-08 11:39:40,344 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:39:44,071 WARN [9] Program - Created
+2017-05-08 11:39:44,077 WARN [9] Program - Created
+2017-05-08 11:39:44,082 INFO [9] Program - Sucess Response
+2017-05-08 11:39:44,148 INFO [9] Program - {"Data":{"UniqueId":"951","SerialNo":"482"},"Response":{"Value":"Created"}}
+2017-05-08 11:39:44,153 INFO [1] Program - Request End --
+2017-05-08 11:39:44,158 INFO [1] Program - Request start --
+2017-05-08 11:39:44,162 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:39:45,581 WARN [8] Program - Not Found
+2017-05-08 11:39:45,586 WARN [8] Program - NotFound
+2017-05-08 11:39:45,591 ERROR [8] Program - Error Response
+2017-05-08 11:39:45,625 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.UnsupportedMediaTypeException: No MediaTypeFormatter is available to read an object of type 'ErrorObject' from content with media type 'text/html'.
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content, IEnumerable`1 formatters)
+   at System.Net.Http.HttpContentExtensions.ReadAsAsync[T](HttpContent content)
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 83<---
+
+2017-05-08 11:41:45,140 INFO [1] Program - Request start --
+2017-05-08 11:41:45,157 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:41:50,337 WARN [9] Program - Created
+2017-05-08 11:41:50,344 WARN [9] Program - Created
+2017-05-08 11:41:50,349 INFO [9] Program - Sucess Response
+2017-05-08 11:41:50,415 INFO [9] Program - {"Data":{"UniqueId":"953","SerialNo":"483"},"Response":{"Value":"Created"}}
+2017-05-08 11:41:50,420 INFO [1] Program - Request End --
+2017-05-08 11:41:50,425 INFO [1] Program - Request start --
+2017-05-08 11:41:50,429 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:42:21,383 INFO [1] Program - Request start --
+2017-05-08 11:42:21,401 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:43:05,470 INFO [1] Program - Request start --
+2017-05-08 11:43:05,487 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:43:09,305 WARN [9] Program - Created
+2017-05-08 11:43:09,311 WARN [9] Program - Created
+2017-05-08 11:43:09,323 INFO [9] Program - Sucess Response
+2017-05-08 11:43:09,388 INFO [9] Program - {"Data":{"UniqueId":"955","SerialNo":"484"},"Response":{"Value":"Created"}}
+2017-05-08 11:43:09,394 INFO [1] Program - Request End --
+2017-05-08 11:43:09,400 INFO [1] Program - Request start --
+2017-05-08 11:43:09,406 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:43:16,283 WARN [9] Program - Not Found
+2017-05-08 11:43:16,997 WARN [9] Program - NotFound
+2017-05-08 11:49:53,245 INFO [1] Program - Request start --
+2017-05-08 11:49:53,262 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:49:56,617 WARN [9] Program - Created
+2017-05-08 11:49:56,626 WARN [9] Program - Created
+2017-05-08 11:49:56,632 INFO [9] Program - Sucess Response
+2017-05-08 11:49:56,714 INFO [9] Program - {"Data":{"UniqueId":"957","SerialNo":"485"},"Response":{"Value":"Created"}}
+2017-05-08 11:49:56,720 INFO [1] Program - Request End --
+2017-05-08 11:49:56,728 INFO [1] Program - Request start --
+2017-05-08 11:49:56,735 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:49:58,950 WARN [8] Program - Not Found
+2017-05-08 11:49:59,714 WARN [8] Program - NotFound
+2017-05-08 11:50:03,522 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 78<---
+
+2017-05-08 11:50:23,330 INFO [1] Program - Request start --
+2017-05-08 11:50:23,349 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:51:02,444 WARN [9] Program - Created
+2017-05-08 11:51:02,451 WARN [9] Program - Created
+2017-05-08 11:51:02,456 INFO [9] Program - Sucess Response
+2017-05-08 11:51:02,519 INFO [9] Program - {"Data":{"UniqueId":"959","SerialNo":"486"},"Response":{"Value":"Created"}}
+2017-05-08 11:51:02,525 INFO [1] Program - Request End --
+2017-05-08 11:51:02,530 INFO [1] Program - Request start --
+2017-05-08 11:51:02,534 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:51:27,318 INFO [1] Program - Request start --
+2017-05-08 11:51:27,334 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:51:34,269 WARN [9] Program - Created
+2017-05-08 11:51:34,270 WARN [9] Program - Created
+2017-05-08 11:51:34,271 INFO [9] Program - Sucess Response
+2017-05-08 11:51:34,337 INFO [9] Program - {"Data":{"UniqueId":"961","SerialNo":"487"},"Response":{"Value":"Created"}}
+2017-05-08 11:51:34,338 INFO [1] Program - Request End --
+2017-05-08 11:51:34,339 INFO [1] Program - Request start --
+2017-05-08 11:51:34,340 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:51:36,817 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 72
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 72<---
+
+2017-05-08 11:54:10,778 INFO [1] Program - Request start --
+2017-05-08 11:54:10,799 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:54:15,435 WARN [9] Program - Created
+2017-05-08 11:54:15,441 WARN [9] Program - Created
+2017-05-08 11:54:15,448 INFO [9] Program - Sucess Response
+2017-05-08 11:54:15,526 INFO [9] Program - {"Data":{"UniqueId":"963","SerialNo":"488"},"Response":{"Value":"Created"}}
+2017-05-08 11:54:15,532 INFO [1] Program - Request End --
+2017-05-08 11:54:15,540 INFO [1] Program - Request start --
+2017-05-08 11:54:15,546 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:54:16,726 ERROR [1] Program - Exception occured---System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 75
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at EndPointCaller.Program.Main(String[] args) in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\Program.cs:line 41
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at EndPointCaller.ApiRequest.<PostRequest>d__5.MoveNext() in D:\Users\sdighade\Source\Repos\Endpoint Testing App\EndPointCaller\EndPointCaller\ApiRequest.cs:line 75<---
+
+2017-05-08 11:54:50,548 INFO [1] Program - Request start --
+2017-05-08 11:54:50,565 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:54:55,996 WARN [8] Program - Created
+2017-05-08 11:54:56,001 WARN [8] Program - Created
+2017-05-08 11:54:56,006 INFO [8] Program - Sucess Response
+2017-05-08 11:54:56,070 INFO [8] Program - {"Data":{"UniqueId":"965","SerialNo":"489"},"Response":{"Value":"Created"}}
+2017-05-08 11:54:56,076 INFO [1] Program - Request End --
+2017-05-08 11:54:56,081 INFO [1] Program - Request start --
+2017-05-08 11:54:56,085 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:54:57,075 INFO [1] Program - Request End --
+2017-05-08 11:55:13,161 INFO [1] Program - Request start --
+2017-05-08 11:55:13,178 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:55:17,992 WARN [9] Program - Created
+2017-05-08 11:55:17,998 WARN [9] Program - Created
+2017-05-08 11:55:18,003 INFO [9] Program - Sucess Response
+2017-05-08 11:55:18,079 INFO [9] Program - {"Data":{"UniqueId":"967","SerialNo":"490"},"Response":{"Value":"Created"}}
+2017-05-08 11:55:18,088 INFO [1] Program - Request End --
+2017-05-08 11:55:18,096 INFO [1] Program - Request start --
+2017-05-08 11:55:18,101 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:59:00,757 INFO [1] Program - Request start --
+2017-05-08 11:59:00,775 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:59:16,458 INFO [1] Program - Request start --
+2017-05-08 11:59:16,474 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:59:20,413 WARN [9] Program - Created
+2017-05-08 11:59:20,418 WARN [9] Program - Created
+2017-05-08 11:59:20,423 INFO [9] Program - Sucess Response
+2017-05-08 11:59:20,490 INFO [9] Program - {"Data":{"UniqueId":"971","SerialNo":"492"},"Response":{"Value":"Created"}}
+2017-05-08 11:59:20,497 INFO [1] Program - Request End --
+2017-05-08 11:59:20,502 INFO [1] Program - Request start --
+2017-05-08 11:59:20,505 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 11:59:22,585 WARN [9] Program - Not Found
+2017-05-08 11:59:22,592 WARN [9] Program - NotFound
+2017-05-08 11:59:22,599 ERROR [9] Program - Error Response
+2017-05-08 11:59:24,139 INFO [1] Program - Request End --
+2017-05-08 12:00:14,886 INFO [1] Program - Request start --
+2017-05-08 12:00:14,905 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:00:19,919 WARN [9] Program - Created
+2017-05-08 12:00:19,926 WARN [9] Program - Created
+2017-05-08 12:00:19,932 INFO [9] Program - Sucess Response
+2017-05-08 12:00:20,015 INFO [9] Program - {"Data":{"UniqueId":"973","SerialNo":"493"},"Response":{"Value":"Created"}}
+2017-05-08 12:00:20,023 INFO [1] Program - Request End --
+2017-05-08 12:00:20,028 INFO [1] Program - Request start --
+2017-05-08 12:00:20,033 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:00:23,125 WARN [9] Program - Not Found
+2017-05-08 12:00:23,705 WARN [9] Program - NotFound
+2017-05-08 12:00:25,539 ERROR [9] Program - Error Response
+2017-05-08 12:00:31,421 INFO [1] Program - Request End --
+2017-05-08 12:08:56,361 INFO [1] Program - Request start --
+2017-05-08 12:08:56,374 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:09:05,456 WARN [9] Program - Created
+2017-05-08 12:09:05,457 WARN [9] Program - Created
+2017-05-08 12:09:05,458 INFO [9] Program - Sucess Response
+2017-05-08 12:09:05,530 INFO [9] Program - {"Data":{"UniqueId":"975","SerialNo":"494"},"Response":{"Value":"Created"}}
+2017-05-08 12:09:05,531 INFO [1] Program - Request End --
+2017-05-08 12:09:05,532 INFO [1] Program - Request start --
+2017-05-08 12:09:05,533 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:09:14,046 WARN [9] Program - Not Found
+2017-05-08 12:09:14,437 WARN [9] Program - NotFound
+2017-05-08 12:09:15,063 ERROR [9] Program - Error Response
+2017-05-08 12:09:35,561 INFO [1] Program - Request End --
+2017-05-08 12:11:12,844 INFO [1] Program - Request start --
+2017-05-08 12:11:12,867 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:11:19,452 WARN [9] Program - Created
+2017-05-08 12:11:19,457 WARN [9] Program - Created
+2017-05-08 12:11:19,462 INFO [9] Program - Sucess Response
+2017-05-08 12:11:19,535 INFO [9] Program - {"Data":{"UniqueId":"977","SerialNo":"495"},"Response":{"Value":"Created"}}
+2017-05-08 12:11:19,541 INFO [1] Program - Request End --
+2017-05-08 12:11:19,546 INFO [1] Program - Request start --
+2017-05-08 12:11:19,551 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:11:22,856 WARN [9] Program - Not Found
+2017-05-08 12:11:22,862 WARN [9] Program - NotFound
+2017-05-08 12:11:22,867 ERROR [9] Program - Error Response
+2017-05-08 12:11:22,872 ERROR [9] Program - Not Found
+2017-05-08 12:11:22,877 ERROR [9] Program - NotFound
+2017-05-08 12:11:22,882 INFO [1] Program - Request End --
+2017-05-08 12:12:44,773 INFO [1] Program - Request start --
+2017-05-08 12:12:49,920 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:13:02,174 WARN [9] Program - Created
+2017-05-08 12:13:02,182 WARN [9] Program - Created
+2017-05-08 12:13:02,189 INFO [9] Program - Sucess Response
+2017-05-08 12:13:02,261 INFO [9] Program - {"Data":{"UniqueId":"979","SerialNo":"496"},"Response":{"Value":"Created"}}
+2017-05-08 12:13:02,269 INFO [1] Program - Request End --
+2017-05-08 12:13:02,276 INFO [1] Program - Request start --
+2017-05-08 12:13:03,461 INFO [1] Program - EndPointCaller.JsonEndPointTemplate
+2017-05-08 12:13:05,263 WARN [9] Program - Not Found
+2017-05-08 12:13:05,271 WARN [9] Program - NotFound
+2017-05-08 12:13:05,278 ERROR [9] Program - Error Response
+2017-05-08 12:13:05,285 ERROR [9] Program - Not Found
+2017-05-08 12:13:05,291 ERROR [9] Program - NotFound
+2017-05-08 12:13:05,299 INFO [1] Program - Request End --
+2017-05-08 12:14:52,582 INFO [1] Program - Request start --
+2017-05-08 12:14:57,599 INFO [1] Program - {{{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}}
+2017-05-08 12:15:05,221 WARN [9] Program - Created
+2017-05-08 12:15:05,223 WARN [9] Program - Created
+2017-05-08 12:15:05,223 INFO [9] Program - Sucess Response
+2017-05-08 12:15:05,292 INFO [9] Program - {"Data":{"UniqueId":"981","SerialNo":"497"},"Response":{"Value":"Created"}}
+2017-05-08 12:15:05,293 INFO [1] Program - Request End --
+2017-05-08 12:15:05,294 INFO [1] Program - Request start --
+2017-05-08 12:15:05,295 INFO [1] Program - {{{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}, {{}}}
+2017-05-08 12:15:05,303 WARN [9] Program - Not Found
+2017-05-08 12:15:05,304 WARN [9] Program - NotFound
+2017-05-08 12:15:05,305 ERROR [9] Program - Error Response
+2017-05-08 12:15:05,306 ERROR [9] Program - Not Found
+2017-05-08 12:15:05,306 ERROR [9] Program - NotFound
+2017-05-08 12:15:05,307 INFO [1] Program - Request End --
+2017-05-08 12:15:37,938 INFO [1] Program - Request start --
+2017-05-08 12:15:37,957 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:15:40,031 WARN [9] Program - Created
+2017-05-08 12:15:40,038 WARN [9] Program - Created
+2017-05-08 12:15:40,045 INFO [9] Program - Sucess Response
+2017-05-08 12:15:40,110 INFO [9] Program - {"Data":{"UniqueId":"983","SerialNo":"498"},"Response":{"Value":"Created"}}
+2017-05-08 12:15:40,116 INFO [1] Program - Request End --
+2017-05-08 12:15:40,122 INFO [1] Program - Request start --
+2017-05-08 12:15:40,128 INFO [1] Program - http://hivedome-fs01:4721/Contract/vi/FuturesAndOptions/Trade/
+2017-05-08 12:15:40,139 WARN [9] Program - Not Found
+2017-05-08 12:15:40,146 WARN [9] Program - NotFound
+2017-05-08 12:15:40,152 ERROR [9] Program - Error Response
+2017-05-08 12:15:40,158 ERROR [9] Program - Not Found
+2017-05-08 12:15:40,164 ERROR [9] Program - NotFound
+2017-05-08 12:15:40,170 INFO [1] Program - Request End --
+2017-05-08 12:21:39,974 INFO [1] Program - Request start --
+2017-05-08 12:21:39,993 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:21:41,801 INFO [9] Program - Sucess Response
+2017-05-08 12:21:41,889 INFO [9] Program - {"Data":{"UniqueId":"985","SerialNo":"499"},"Response":{"Value":"Created"}}
+2017-05-08 12:21:41,896 INFO [1] Program - Request End --
+2017-05-08 12:21:41,905 INFO [1] Program - Request start --
+2017-05-08 12:21:41,912 INFO [1] Program - http://hivedome-fs01:4721/Contract/vi/FuturesAndOptions/Trade/
+2017-05-08 12:21:41,927 ERROR [9] Program - Error Response
+2017-05-08 12:21:41,934 ERROR [9] Program - Not Found
+2017-05-08 12:21:41,940 ERROR [9] Program - 404
+2017-05-08 12:21:41,948 INFO [1] Program - Request End --
+2017-05-08 12:23:20,960 INFO [1] Program - Request start --
+2017-05-08 12:23:20,983 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:23:22,895 INFO [9] Program - Sucess Response
+2017-05-08 12:23:22,963 INFO [9] Program - {"Data":{"UniqueId":"987","SerialNo":"500"},"Response":{"Value":"Created"}}
+2017-05-08 12:23:22,969 INFO [1] Program - Request End --
+2017-05-08 12:23:22,975 INFO [1] Program - Request start --
+2017-05-08 12:23:22,980 INFO [1] Program - http://hivedome-fs01:4721/Contract/vi/FuturesAndOptions/Trade/
+2017-05-08 12:23:22,995 ERROR [9] Program - Error Response
+2017-05-08 12:23:23,001 ERROR [9] Program - Not Found
+2017-05-08 12:23:23,008 ERROR [9] Program - 404
+2017-05-08 12:23:27,196 INFO [1] Program - Request End --
+2017-05-08 12:24:08,265 INFO [1] Program - Request start --
+2017-05-08 12:24:08,283 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:24:10,251 INFO [9] Program - Sucess Response
+2017-05-08 12:24:10,317 INFO [9] Program - {"Data":{"UniqueId":"989","SerialNo":"501"},"Response":{"Value":"Created"}}
+2017-05-08 12:24:10,337 INFO [1] Program - Request End --
+2017-05-08 12:24:10,344 INFO [1] Program - Request start --
+2017-05-08 12:24:10,350 INFO [1] Program - http://hivedome-fs01:4720/Contract/vi/FuturesAndOptions/Trade/
+2017-05-08 12:24:10,572 ERROR [9] Program - Error Response
+2017-05-08 12:24:10,598 ERROR [9] Program - Bad Request
+2017-05-08 12:24:10,605 ERROR [9] Program - 400
+2017-05-08 12:24:10,623 ERROR [9] Program - {"headerReasonPhrase":null,"Response":{"Value":"400 Bad Request"},"Messages":[{"Severity":"Error","Message":"API5084 - LEG: Cannot perform runtime binding on a null reference"}]}
+2017-05-08 12:24:10,630 INFO [1] Program - Request End --
+2017-05-08 12:25:03,256 INFO [1] Program - Request start --
+2017-05-08 12:25:03,277 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:25:05,114 INFO [9] Program - Sucess Response
+2017-05-08 12:25:05,188 INFO [9] Program - {"Data":{"UniqueId":"991","SerialNo":"502"},"Response":{"Value":"Created"}}
+2017-05-08 12:25:05,194 INFO [1] Program - Request End --
+2017-05-08 12:25:05,201 INFO [1] Program - Request start --
+2017-05-08 12:25:05,207 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:25:06,895 INFO [9] Program - Sucess Response
+2017-05-08 12:25:06,902 INFO [9] Program - {"Data":{"UniqueId":"993","SerialNo":"503"},"Response":{"Value":"Created"}}
+2017-05-08 12:25:06,909 INFO [1] Program - Request End --
+2017-05-08 12:25:20,106 INFO [1] Program - Request start --
+2017-05-08 12:25:20,124 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:25:22,098 INFO [9] Program - Sucess Response
+2017-05-08 12:25:22,168 INFO [9] Program - {"Data":{"UniqueId":"995","SerialNo":"504"},"Response":{"Value":"Created"}}
+2017-05-08 12:25:22,175 INFO [1] Program - Request End --
+2017-05-08 12:25:22,182 INFO [1] Program - Request start --
+2017-05-08 12:25:22,189 INFO [1] Program - http://hivedome-fs01:9720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:25:43,470 INFO [1] Program - Request End --
+2017-05-08 12:26:02,596 INFO [1] Program - Request start --
+2017-05-08 12:26:02,616 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:26:04,450 INFO [9] Program - Sucess Response
+2017-05-08 12:26:04,516 INFO [9] Program - {"Data":{"UniqueId":"997","SerialNo":"505"},"Response":{"Value":"Created"}}
+2017-05-08 12:26:04,523 INFO [1] Program - Request End --
+2017-05-08 12:26:04,529 INFO [1] Program - Request start --
+2017-05-08 12:26:04,535 INFO [1] Program - http://hivedome-fs01:720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:26:25,585 INFO [1] Program - Request End --
+2017-05-08 12:26:59,223 INFO [1] Program - Request start --
+2017-05-08 12:26:59,259 INFO [1] Program - http://hivedome-fs01:4720/Contract/jt/FuturesAndOptions/Trade/
+2017-05-08 12:27:01,229 INFO [9] Program - Sucess Response
+2017-05-08 12:27:01,295 INFO [9] Program - {"Data":{"UniqueId":"999","SerialNo":"506"},"Response":{"Value":"Created"}}
+2017-05-08 12:27:01,303 INFO [1] Program - Request End --
+2017-05-08 12:27:01,309 INFO [1] Program - Request start --
+2017-05-08 12:27:01,314 INFO [1] Program - http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/
+2017-05-08 12:27:01,388 ERROR [9] Program - Error Response
+2017-05-08 12:27:01,394 ERROR [9] Program - Not Found
+2017-05-08 12:27:01,400 ERROR [9] Program - 404
+2017-05-08 12:27:01,417 ERROR [9] Program - {"headerReasonPhrase":null,"Response":{"Value":"404 Not Found"},"Messages":[{"Severity":"Error","Message":"No HTTP resource was found that matches the request URI 'http://hivedome-fs01:4720/Contract1/jt/FuturesAndOptions/Trade/'."}]}
+2017-05-08 12:27:01,424 INFO [1] Program - Request End --

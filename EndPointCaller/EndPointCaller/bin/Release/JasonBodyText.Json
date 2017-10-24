@@ -1,0 +1,69 @@
+//****************************************
+// AMEND THE VERB USAGE IN THE CONFIG FILE
+//****************************************
+[
+  {
+
+    "EndPointURI": "http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual",
+    "EndPointBody": {
+      "DocumentBody": {
+        "DocumentDate": "2016-02-09T00:00:00",
+        "ValueDate": "2016-02-10T00:00:00",
+        "DocumentCurrencyCode": "USD",
+        "PayeeName": null,
+        "Narrative": "BACS Payme 38",
+        "EDICode": "anything123"
+      },
+      "AccountDetails": [
+        {
+          "AccountCode": "1550.2500",
+          "AccountLedgerType": "N",
+          "ExpenseCode": "ACR",
+          "DepartmentCode": "BDEV",
+          "AmountInDocumentCurrency": 100.00
+        },
+        {
+          "AccountCode": "BADEL.P",
+          "AccountLedgerType": "C",
+          "ExpenseCode": "ACR",
+          "DepartmentCode": "BDEV",
+          "AmountInDocumentCurrency": -100.00
+        }
+      ]
+    }
+  },
+
+  {
+    "EndPointURI": "http://hivedome-fs01:4720/Finance/qa/Cash/ReceivableManual",
+    "EndPointBody": {
+      "DocumentBody": {
+        "DocumentDate": "2016-02-09T00:00:00",
+        "ValueDate": "2016-02-10T00:00:00",
+        "DocumentCurrencyCode": "USD",
+        "PayeeName": null,
+        "Narrative": "BACS Payme 38",
+        "EDICode": "anything123"
+      },
+      "AccountDetails": [
+        {
+          "AccountCode": "1550.2500",
+          "AccountLedgerType": "N",
+          "ExpenseCode": "ACR",
+          "DepartmentCode": "BDEV",
+          "AmountInDocumentCurrency": 100.00
+        },
+        {
+          "AccountCode": "BADEL.P",
+          "AccountLedgerType": "C",
+          "ExpenseCode": "ACR",
+          "DepartmentCode": "BDEV",
+          "AmountInDocumentCurrency": -100.00
+        }
+      ]
+    }
+  },
+  {
+    "EndPointURI": "http://hivedome-fs01:4720/ReferenceData/qa/ClientLedger/ClientAccount/DAVIDA.P"
+  }
+
+]
